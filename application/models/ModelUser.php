@@ -16,6 +16,7 @@ class ModelUser extends CI_Model
  }
  public function cekUserAccess($where = null)
  {
+	 
  $this->db->select('*');
  $this->db->from('access_menu');
  $this->db->where($where);
