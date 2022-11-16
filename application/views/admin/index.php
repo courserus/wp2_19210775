@@ -24,8 +24,8 @@
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-md font-weight-bold text-white text- uppercase mb-1">Stok Buku Terdaftar</div>
-                            <div class="h1 mb-0 font-weight-bold text-white">
+                            <div class="text-md font-weight-bold text-black text- uppercase mb-1">Stok Buku Terdaftar</div>
+                            <div class="h1 mb-0 font-weight-bold text-black">
                                 <?php
                                 $where = ['stok != 0'];
                                 $totalstok = $this->ModelBuku->total(
