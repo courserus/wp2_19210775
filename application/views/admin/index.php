@@ -20,12 +20,12 @@
             </div>
         </div>
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card border-left-primary shadow h-100 py-2 bg- warning">
+            <div class="card border-left-primary shadow h-100 py-2 bg-warning">
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-md font-weight-bold text-black text- uppercase mb-1">Stok Buku Terdaftar</div>
-                            <div class="h1 mb-0 font-weight-bold text-black">
+                            <div class="text-md font-weight-bold text-white text- uppercase mb-1">Stok Buku Terdaftar</div>
+                            <div class="h1 mb-0 font-weight-bold text-white">
                                 <?php
                                 $where = ['stok != 0'];
                                 $totalstok = $this->ModelBuku->total(
